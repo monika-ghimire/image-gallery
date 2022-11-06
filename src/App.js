@@ -27,7 +27,7 @@ function App() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col-4 imgHolder">
+          <div className="col-2 imgHolder">
             {imgList.map((x) => (
               // <button onClick={y=>showOnImage(x.id)}>{x.img}</button>
 
@@ -35,7 +35,7 @@ function App() {
             ))}
           </div>
 
-          <div className="col-8 ">
+          <div className="col-10 ">
           <div className="right-clicked-imgs">
         <img src={imges} alt="sorry" />
       </div>

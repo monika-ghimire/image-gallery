@@ -37,18 +37,22 @@
   }
 }
 
+.imgHolder
+{
+ margin-top:5%; 
+}
 .imgHolder img
 {
   
-width:60%;
-margin-top:20%;
-box-shadow: 10px 10px 8px 10px #888888;
+width:70%;
+ margin-top:20%; 
+box-shadow: 5px 5px 4px 5px #c8c6c6;
 }
 .right-clicked-imgs img
 {
-  margin-left:10%;
+  margin-left:2%;
   border-radius:5px solid rgb(69, 69, 69);
-  width:90%;
-  margin-top:20%;
-  box-shadow: 10px 10px 8px 10px #888888;
+  width:80%;
+  margin-top:5%;
+  box-shadow: 5px 5px 4px 5px #c2c1c1;
 }
