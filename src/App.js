@@ -5,7 +5,7 @@ import SecImages from "./assetes/SecImages.png";
 import ThrImages from "./assetes/ThrImages.png";
 
 function App() {
-  const [imges, setImages] = useState();
+  const [imges, setImages] = useState(OneImages);
 
   const imgList = [
     { img: OneImages, id: 0 },
