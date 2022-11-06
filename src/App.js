@@ -1,12 +1,15 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import OneImages from "./assetes/OneImages.png";
 import SecImages from "./assetes/SecImages.png";
 import ThrImages from "./assetes/ThrImages.png";
 
 function App() {
+  useEffect(() => { 
+    setImages(OneImages) 
+       });
   const [imges, setImages] = useState(OneImages);
-
+   
   const imgList = [
     { img: OneImages, id: 0 },
     { img: SecImages, id: 1 },
