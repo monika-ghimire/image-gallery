@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.imgHolder img
+{
+  
+width:60%;
+margin-top:20%;
+}
+.right-clicked-imgs img
+{
+  margin-left:10%;
+  border-radius:5px solid rgb(69, 69, 69);
+  width:90%;
+  margin-top:20%;
+}
