@@ -7,13 +7,13 @@ import ThrImages from "./assetes/ThrImages.png";
 function App() {
   useEffect(() => { 
     setImages(OneImages) 
-       });
+       },[]);
   const [imges, setImages] = useState(OneImages);
    
   const imgList = [
-    { img: OneImages, id: 0 },
-    { img: SecImages, id: 1 },
-    { img: ThrImages, id: 2 },
+    { img: OneImages, id:0 },
+    { img: SecImages, id:1 },
+    { img: ThrImages, id:2 },
   ];
 
   const showOnImage = (id) => {
